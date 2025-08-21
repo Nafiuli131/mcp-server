@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "education-mcp": {
+      "command": "/usr/bin/java",
+      "args": [
+        "-Dspring.main.banner-mode=off",
+        "-Dlogging.level.root=OFF",
+        "-jar",
+        "/home/cloudly/Nafiul_Workspace/MCP-Server/mcp-server/target/mcp-server-0.0.1-SNAPSHOT.jar"
+      ]
+    }
+  }
+}
+
